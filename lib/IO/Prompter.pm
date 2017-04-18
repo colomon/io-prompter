@@ -114,7 +114,7 @@ sub prompt-straight (
   $prompt_str?,
 # :a(  :$args       )  of Bool,
 # :c(  :$complete   )  of Array|Hash|Str,
-      :d(:$default) as Str = "",
+      Str(Cool) :d(:$default) = "",
 #--> :D(:$DEFAULT)        of Str,
 # :e(  :$echo      )   of Str,
       :f(:$fail)      = False,
